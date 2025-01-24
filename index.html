@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Honda - Acesso Restrito</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    #conteudo {
+      display: none;
+    }
+    .erro {
+      color: red;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Acesso Restrito</h1>
+  <h2>o conteudo a seguir é um projeto somente para fins academicos</h2>
+  <div id="login">
+    <p>Digite a senha para acessar o conteúdo:</p>
+    <input type="password" id="senha" placeholder="Digite a senha">
+    <button onclick="verificarSenha()">Acessar</button>
+    <p class="erro" id="mensagemErro"></p>
+  </div>
+
+  <script>
+    function verificarSenha() {
+      const senhaCorreta = "alunocapauifpi";
+      const senhaDigitada = document.getElementById("senha").value;
+      const mensagemErro = document.getElementById("mensagemErro");
+
+      if (senhaDigitada === senhaCorreta) {
+        // Redireciona para a página principal
+        window.location.href = "Reajusteloja.html";
+      } else {
+        mensagemErro.textContent = "Senha incorreta. Tente novamente!";
+      }
+    }
+  </script>
+</body>
+</html>

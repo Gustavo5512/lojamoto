@@ -1,0 +1,133 @@
+body{background-color: rgb(255, 255, 255);}
+
+@media(max-width: 1000px) {.MENU{position: fixed;
+    top: 1%;
+    color: #f0f8ff;
+background-color: rgb(212, 0, 0);
+width: 13%;
+padding: 0%;
+padding: 2px; /* Espaçamento interno */
+border-radius: 10px; /* Arredondamento das bordas */}}
+    
+
+
+.principal{
+    position: absolute;
+   top: 10vh;
+}
+
+
+
+a{color: inherit;
+text-decoration: none;}
+
+@media(min-width: 1000px){.MENU{position: fixed;
+    top: 1%;
+    color: #f0f8ff;
+background-color: rgb(212, 0, 0);
+width: 6%;
+padding: 0%;
+padding: 5px; /* Espaçamento interno */
+border-radius: 10px; /* Arredondamento das bordas */}}
+@media(min-width: 1000px) {.MENU_S{position: fixed;
+    top: 1%;
+    background-color: rgb(216, 0, 0);
+    color: rgb(255, 254, 254);
+    width: 13%;
+    font-size: 60%;
+    padding: 5px; /* Espaçamento interno */
+    border-radius: 10px; /* Arredondamento das bordas */}}
+
+@media(max-width: 1000px) {.MENU_S{position: fixed;
+top: 1%;
+background-color: rgb(216, 0, 0);
+color: rgb(255, 254, 254);
+width: 6%;
+font-size: 60%;
+padding: 5px; /* Espaçamento interno */
+border-radius: 10px; /* Arredondamento das bordas */}}
+
+
+.inicio{color: aquamarine;
+box-shadow: none;}
+
+.fonte{font-size: small;}
+.fonte1{font-size: 70%;}
+
+.sobre{font-size: medium;}
+h3{color: beige;}
+
+
+
+/*        motos         */
+.bros{position: fixed;
+    height: 27%; width: 27%;
+top: 32%;
+transform: translatey(-25%);}
+
+
+
+.lbros{font-size: 1,5vw;
+    position: absolute; top: 50%;
+    left: 12%;
+    transform: translate(-25%)}
+
+.xre{position: fixed;
+    height: 27%; width: 27%;
+    top: 25%;
+transform: translatey(-20%);
+left: 50%;
+transform: translateX(-50%);}
+
+.lxre{font-size: 1,5vw;
+    position: absolute; top: 50%;
+    left: 47%;
+    transform: translate(-25%)}
+   
+    .fan{position: fixed;
+height: 27%; width: 27%;
+top: 32%;
+right: 1%;
+transform: translateY(-25%);}
+
+.lfan{font-size: 1,5vw;
+    position: absolute; top: 50%;
+    right: 8%;
+    transform: translateX(-3%);
+    transform: translate(-25%)}
+/*    fim  moto   */
+.categoriacentro{
+    font-size: larger;
+    color: aliceblue;
+  
+   
+}
+
+.novidade{font-size: medium;
+position: fixed;
+top: 65%;
+transform: translateY(-50);}
+
+/*sobre*/
+
+.historia{
+    font-size:80%;
+    color: rgb(59, 59, 59);
+}
+.aqui{color: blue;}
+.tema{font-size: 140%;
+color: rgb(255, 0, 0);
+left: 40%;}
+/*fotos das motos*/
+
+/* NXR BROS 2025*/
+.fotosbros{background-color: black; color: aliceblue;}
+.nomedamotocor{
+    color: rgb(255, 0, 0);
+    font-size: medium
+}
+/* sobre as motos */
+.sobremoto{ color: rgb(194, 0, 0);
+font-size: larger;}
+.sobree{color: rgb(0, 0, 0);}
+.cop1{ font-size: 70%;}
