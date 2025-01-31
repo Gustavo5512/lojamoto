@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bros 2025</title>
-    <link rel="stylesheet" href="fundo.css"> <!-- CSS linkado -->
-    <script src="script.js" defer></script> <!-- JavaScript linkado -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
+    <script src="script.js" defer></script> <!-- Link para o JavaScript -->
 </head>
 <body>
     <!-- LOGO DA HONDA -->
-    <div>
+    <div class="container">
         <center>
-            <img src="motos\honda-motos-logo-1-1.png" alt="logohonda" height="7%" width="7%">
+            <img src="motos/honda-motos-logo-1-1.png" alt="Logo Honda" height="7%" width="7%">
         </center>
         <hr color="red">
 
@@ -21,31 +21,27 @@
             <details>
                 <summary>Categorias</summary>
                 <div class="fonte">
-                    <a href="trail.html" class="off">off-road</a><br>
+                    <a href="trail.html" class="off">Off-road</a><br>
                     <a href="street.html">Street</a><br>
-                    <a href="scooter.html">scooter</a>
+                    <a href="scooter.html">Scooter</a>
                 </div>
             </details>
             <br>
-            <a href="reajusteloja.html" class="sobre">Inicio</a><br>
-            <a href="sobre.html" class="sobre">Sobre a honda</a>
+            <a href="reajusteloja.html" class="sobre">Início</a><br>
+            <a href="sobre.html" class="sobre">Sobre a Honda</a>
         </details>
-         
-        <div>
-            <br>
-            <center>
-                <span>Para todas as aventuras da vida: <strong class="nomedamotocor"><br>Nova Honda NXR Bros 160.</strong></span>
-            </center>
-            <br>
-            <center>
-                <!-- Imagens com a classe 'image-slide' para carrossel -->
-                <img src="motos\bros.png" alt="Bros" class="image-slide">
-                <img src="motos\honda-nxr-bros-160-lateral-cinza.png" alt="Bros Lateral" class="image-slide">
-                <img src="motos\honda-nxr-bros-160-lateral-traseira-esquerda-cinza.png" alt="Bros Traseira Esquerda" class="image-slide">
-                <img src="motos\honda-nxr-bros-160-lateral-traseira-direita-cinza.png" alt="Bros Traseira Direita" class="image-slide">
-            </center>
-        </div>
 
+        <div class="carousel-container">
+            <!-- Botão para imagem anterior -->
+            <button id="prev" class="carousel-btn">&#10094;</button>
+
+            <div class="carousel">
+                <img src="motos/gifmotos/Bros.gif" alt="Bros GIF" class="image-slide">
+                <img src="motos/bros.png" alt="Bros" class="image-slide">
+                <img src="motos/honda-nxr-bros-160-lateral-cinza.png" alt="Bros Lateral" class="image-slide">
+                <img src="motos/honda-nxr-bros-160-lateral-traseira-esquerda-cinza.png" alt="Bros Traseira Esquerda" class="image-slide">
+                <img src="motos/honda-nxr-bros-160-lateral-traseira-direita-cinza.png" alt="Bros Traseira Direita" class="image-slide">
+            </div>
         <!-- DETALHES SOBRE A MOTO -->
         <details class="sobremoto">
             <summary>Nova Versão ABS e Design Imponente</summary>
