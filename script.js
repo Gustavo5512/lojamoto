@@ -1,23 +1,24 @@
 let index = 0;
+const images = document.querySelectorAll('.image-slide');
+const prevBtn = document.getElementById('prev');
+const nextBtn = document.getElementById('next');
 
-function changeImage() {
-    const images = document.querySelectorAll('.image-slide');
+// Exibir a primeira imagem ao carregar a página
+images[index].classList.add('active');
+
+function changeImage(direction) {
+    images[index].classList.remove('active');
     
-    // Esconde todas as imagens
-    images.forEach((image) => {
-        image.style.display = 'none';
-    });
-
-    // Exibe a próxima imagem
-    index++;
-    if (index >= images.length) {
-        index = 0; // Se chegou no final, começa novamente
+    index += direction;
+    if (index < 0) {
+        index = images.length - 1;
+    } else if (index >= images.length) {
+        index = 0;
     }
 
-    images[index].style.display = 'block';  // Exibe a imagem atual
+    images[index].classList.add('active');
 }
 
-// Altera a imagem a cada 3 segundos
-window.onload = function() {
-    setInterval(changeImage, 3000);
-};
+// Eventos de clique para mudar as imagens
+prevBtn.addEventListener('click', () => changeImage(-1));
+nextBtn.addEventListener('click', () => changeImage(1));
