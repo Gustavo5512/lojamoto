@@ -131,3 +131,14 @@ left: 40%;}
 font-size: larger;}
 .sobree{color: rgb(0, 0, 0);}
 .cop1{ font-size: 70%;}
+/* Configura o estilo das imagens para o carrossel */
+.image-slide {
+    display: none;  /* Inicialmente, todas as imagens estão escondidas */
+    width: 24%;
+    height: auto;
+    transition: opacity 1s ease-in-out;
+}
+
+.image-slide:first-child {
+    display: block; /* A primeira imagem será visível ao carregar */
+}
