@@ -24,12 +24,12 @@ body {
 
 .ga a {
     display: block; /* Garante que os links não afetem o layout */
-    width: 30%; /* Ajusta para 30% para garantir 3 por linha */
+    width:  250px; /* Ajusta para 30% para garantir 3 por linha */
     text-align: center;
 }
 
 .ga img {
-    width: 100%; /* Ocupa todo o espaço do link */
+    width:  250px; /* Ocupa todo o espaço do link */
     height: auto;
     border-radius: 10px;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4); /* Sombra apenas nas imagens */

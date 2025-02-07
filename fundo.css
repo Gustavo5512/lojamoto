@@ -4,7 +4,7 @@ body{background-color: rgb(255, 255, 255);}
     top: 1%;
     color: #f0f8ff;
 background-color: rgb(212, 0, 0);
-width: 13%;
+width: 75px;
 padding: 0%;
 padding: 2px; /* Espaçamento interno */
 border-radius: 10px; /* Arredondamento das bordas */}}
@@ -25,10 +25,12 @@ text-decoration: none;}
     top: 1%;
     color: #f0f8ff;
 background-color: rgb(212, 0, 0);
-width: 6%;
+width: 80px;
 padding: 0%;
 padding: 5px; /* Espaçamento interno */
 border-radius: 10px; /* Arredondamento das bordas */}}
+.inicio{color: aquamarine;
+box-shadow: none;}
 @media(min-width: 1000px) {.MENU_S{position: fixed;
     top: 1%;
     background-color: rgb(216, 0, 0);
