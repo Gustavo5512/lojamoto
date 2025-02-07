@@ -103,3 +103,15 @@ left: 40%;}
 .sobrebros{ color: rgb(255, 220, 220);
 font-size: larger;}
 .sobree{color: aliceblue;}
+
+.MENU summary {
+    list-style: none;
+    padding: 5px;
+}
+
+.MENU a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 0;
+}

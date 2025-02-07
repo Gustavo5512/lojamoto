@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #333;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #d00000;
+    margin-top: 20px;
+}
+
+/* Ajuste para 3 imagens por linha */
+.ga {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px; /* Aumenta o limite de largura para se ajustar melhor */
+    margin: 20px auto;
+}
+
+.ga a {
+    display: block; /* Garante que os links não afetem o layout */
+    width: 30%; /* Ajusta para 30% para garantir 3 por linha */
+    text-align: center;
+}
+
+.ga img {
+    width: 100%; /* Ocupa todo o espaço do link */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4); /* Sombra apenas nas imagens */
+}
+
+
+
+.MENU summary {
+    list-style: none;
+    padding: 5px;
+}
+
+.MENU a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 0;
+}
+
+.sobremoto {
+    color: #e60000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.features p {
+    text-align: justify;
+    padding: 10px;
+}
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: gray;
+}

@@ -132,3 +132,14 @@ font-size: larger;}
 .sobree{color: rgb(0, 0, 0);}
 .cop1{ font-size: 70%;}
 
+.MENU summary {
+    list-style: none;
+    padding: 5px;
+}
+
+.MENU a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 0;
+}
