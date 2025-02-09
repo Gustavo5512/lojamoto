@@ -145,15 +145,32 @@ font-size: larger;}
     display: block;
     padding: 5px 0;
 }
-/* Responsividade e ajustes das imagens na seção Ciclística */
-.ciclistica-images {
-    text-align: center; /* Centraliza as imagens */
-    margin-top: 20px;   /* Espaço superior entre texto e imagem */
-    margin-bottom: 20px; /* Espaço inferior entre imagem e texto */
+/* Ajusta a galeria de imagens */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-.ciclistica-image {
-    max-width: 100%; /* Garantir que a imagem se ajuste à tela */
-    height: auto;    /* Mantém a proporção da imagem */
-    border-radius: 10px; /* Se quiser bordas arredondadas */
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+/* Para imagens dentro dos detalhes com a classe ciclistica-image */
+.ciclistica-images {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.ciclistica-images img {
+    max-width: 90%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
 }
