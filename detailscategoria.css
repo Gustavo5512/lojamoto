@@ -13,28 +13,28 @@ body {
 }
 
 /* Ajuste para 3 imagens por linha */
+/* Galeria com imagens maiores e centralizadas */
 .ga {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    max-width: 1000px; /* Aumenta o limite de largura para se ajustar melhor */
+    gap: 40px; /* Espaçamento entre imagens */
+    max-width: 1200px;
     margin: 20px auto;
 }
 
 .ga a {
-    display: block; /* Garante que os links não afetem o layout */
-    width:  250px; /* Ajusta para 30% para garantir 3 por linha */
+    display: block;
     text-align: center;
 }
 
 .ga img {
-    width:  250px; /* Ocupa todo o espaço do link */
+    max-width: 350px; /* Aumenta a largura máxima das imagens */
+    width: 100%; /* Responsivo */
     height: auto;
     border-radius: 10px;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4); /* Sombra apenas nas imagens */
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
 }
-
 
 
 .MENU summary {

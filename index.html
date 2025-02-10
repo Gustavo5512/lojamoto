@@ -4,31 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Honda - Acesso Restrito</title>
+  <link rel="stylesheet" href="acesso.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-    #conteudo {
-      display: none;
-    }
-    .erro {
-      color: red;
-      margin-top: 10px;
-    }
+   
   </style>
 </head>
-<body>
+<body>  
+  <video autoplay muted loop class="background-video">
+    <source src="motos\Ralla1.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos.
+</video>
+
+<center>
+  <div class="senha">
   <h1>Acesso Restrito</h1>
-  <h2>o conteudo a seguir é um projeto somente para fins academicos</h2>
-  <div id="login">
-    <p>Digite a senha para acessar o conteúdo:</p>
+    o conteudo a seguir é um projeto somente <br> para fins academicos
+    <br>Digite a senha para acessar o conteúdo: <br><br>
     <input type="password" id="senha" placeholder="Digite a senha">
     <button onclick="verificarSenha()">Acessar</button>
     <p class="erro" id="mensagemErro"></p>
   </div>
-
+</div>
   <script>
     function verificarSenha() {
       const senhaCorreta = "alunocapauifpi";
@@ -43,5 +39,8 @@
       }
     }
   </script>
+  </center>
+
+</div>
 </body>
 </html>
