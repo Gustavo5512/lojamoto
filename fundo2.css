@@ -115,3 +115,12 @@ font-size: larger;}
     display: block;
     padding: 5px 0;
 }
+/* Efeito de zoom nas imagens ao passar o mouse */
+img {
+    transition: transform 0.3s ease; /* Faz o zoom de forma suave */
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
+
